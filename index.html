@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agenda · Centro Estético Isabela Ruiz</title>
+<meta name="description" content="Agenda tu cita de en el Centro Estético Isabela Ruiz: armonización facial, tratamientos corporales y cuidado facial en Medellín.">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Great+Vibes&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div id="nieve" aria-hidden="true"></div>
+<div class="app" id="app">
+  <div class="cargando"><img src="img/logo.webp" alt="" class="logo"><p>Cargando la agenda…</p></div>
+</div>
+<div class="modal" id="modal-politicas" role="dialog" aria-modal="true" aria-labelledby="pol-titulo">
+  <div class="caja">
+    <button class="cerrar" data-accion="cerrar-politicas" aria-label="Cerrar">×</button>
+    <h3 id="pol-titulo">Nuestras políticas</h3>
+    <div class="politicas" id="politicas-modal"></div>
+  </div>
+</div>
+<div class="modal" id="modal-datos" role="dialog" aria-modal="true" aria-labelledby="datos-titulo">
+  <div class="caja">
+    <button class="cerrar" data-accion="cerrar-datos" aria-label="Cerrar">×</button>
+    <h3 id="datos-titulo">Tratamiento de datos personales</h3>
+    <div class="texto-legal" id="datos-modal"></div>
+    <div class="acciones-legal"><button class="btn-principal" data-accion="aceptar-datos" style="margin:0">Entiendo y acepto</button></div>
+  </div>
+</div>
+<script type="module" src="js/clientas.js"></script>
+</body>
+</html>
