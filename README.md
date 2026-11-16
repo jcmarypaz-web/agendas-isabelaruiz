@@ -2,8 +2,8 @@
 
 Agenda web de reservas del Centro Estético Isabela Ruiz (Medellín), hecha por **Redyz · By Marypaz Cadavid**.
 
-- **Clientas:** `index.html`
-- **Panel de la secretaria:** `panel.html`
+- **Clientas:** https://agendas-isabelaruiz.web.app
+- **Panel de la secretaria:** https://agendas-isabelaruiz.web.app/panel
 
 ## Cómo funciona
 
@@ -20,7 +20,8 @@ Agenda web de reservas del Centro Estético Isabela Ruiz (Medellín), hecha por 
 - `panel.html` + `js/panel.js`: panel de la secretaria.
 - `js/datos.js`: conexión a Firebase (Firestore + Authentication).
 - `js/semilla.js`: datos iniciales (se cargan solos la primera vez que la secretaria entra con la base vacía).
-- `js/firebase-config.js`: config del proyecto de Firebase.
+- `js/firebase-config.js`: proyecto `agendas-isabelaruiz`.
+- `firebase.json` + `.firebaserc`: Firebase Hosting. Para publicar cambios: en Cloud Shell, `git clone` del repo y `firebase deploy --only hosting`.
 - `css/estilos.css` y `css/panel.css`: tema rosa crema y oro rosa (Bodoni Moda + Great Vibes + Montserrat).
 - `catalogo.pdf`: catálogo de servicios 2026.
 
